@@ -1,0 +1,314 @@
+/* importing custom font for this project */
+@font-face {
+    font-family: "SF Display";
+    src: url(applefont/SanFranciscoDisplay-Semibold.otf.otf);
+  }
+  
+  *,
+  * ::before,
+  * ::after {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* css of section 1 nav-bar */
+  .html {
+    font-size: 10px;
+    font-family: "SF Display", sans-serif;
+  }
+
+  a {
+     display: block;
+     text-decoration: none;
+  }
+
+  .container {
+     max-width: 98rem;
+     margin: 0 auto;
+     padding: 0 2.2rem;
+    
+  }
+
+  header {
+     position: fixed;
+     top: 0;
+     z-index: 1400;
+     height: 3.7rem;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.8);
+   }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -10 3rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 0 3.5rem;
+    transition: opacity 0.5s;
+  }
+
+  .nav-link:hover {
+    opacity: 0.7;
+  }
+
+  .nav-link-cinema {
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("posters/apple.svg") center no-repeat;
+  }
+
+  .nav-link-search {
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("posters/search.svg") center no-repeat;
+  }
+
+  /* position the dropdown content */
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+
+  /* dropdown content (hidden by default) */
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+
+  /* links inside the dropdown */
+  .dropdown-content p{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    padding: 18px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content p:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+
+
+  /* css of section 2 intro with animated text */
+  .intro{
+    height: 28rem;
+    background: url("posters/banker.png") center;
+    border-top: none;
+  }
+
+  .h2-styling{
+    text-align: center;
+    padding-top: 12rem;
+    padding-left: 2rem;
+    font-size: 2.9rem;
+    letter-spacing: 0.008rem;
+    font-weight: 600;
+    animation: text 3s 1;
+  }
+
+  .p-styling{
+    padding-top: 0rem;
+    font-size: 1.7rem;
+    color:black;
+    margin-top: 0.69rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  @keyframes text{
+    0%{
+      color: black;
+      margin-bottom: -40px;
+    }
+    30%{
+      letter-spacing: 20px;
+      margin-bottom: -40px;
+    }
+    85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }
+
+  /* css of all 3 tables */
+  .now-h2{
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+  }
+
+  .table-content{
+    padding-top: 4rem;
+  }
+
+  .table-header{
+    font-size: 1.2rem;
+    color: orangered;
+  }
+
+  .poster{
+    padding-left: 5rem;
+    box-shadow: -4px 4px 5px 0 black;
+    cursor: pointer;
+    transition: 2s;
+  }
+
+  .imgPoster{
+    height: 250px;
+    width: 170px;
+  }
+
+  .poster:hover{
+    transform: translateY(-30px);
+  }
+
+  /* css of section 4 upcoming movie*/
+  .coming-soon{
+    height: 38.2rem;
+    margin-top: 4.4rem;
+    background: url("posters/topgun.jpg");
+    background-position: center;
+  }
+
+  .title-white{
+    color: white;
+    text-align: center;
+  }
+
+  .title-heading-white{
+    font-size: 4rem;
+    padding-top: 2rem;
+    line-height: 1;
+    letter-spacing: 0.002rem;
+    font-weight: normal;
+  }
+  
+  .title-sub-heading-white{
+    font-size: 2rem;
+    margin-top: 1rem;
+    letter-spacing: 0.08rem;
+    font-weight: 400;
+    padding-right: 1rem;
+    color: #888;
+  }
+
+  .cta-link-coming{
+    text-align: right;
+    margin-top: 22rem;
+    padding-right: 9rem;
+    color: #66bbff;
+    font-size: 1.3rem;
+  }
+  
+  .cta-link-coming:hover{
+    opacity: 0.7;
+  }
+
+  /* css of section 6 trending movie of the month */
+  .poster-cover{
+    height: 47rem;
+    margin-top: 4.4rem;
+    background-color: #E8E9EB;
+  }
+
+  .invisible-img{
+    height: 530px;
+    width: 380px;
+    box-shadow: -4px 4px 5px 0 black;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 32rem;
+    margin-top: 1rem;
+  }
+
+  .invisible-img:hover{
+      transform: translateX(100px);
+  }
+
+  .poster-heading{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 3rem;
+
+  }
+
+  .poster-sub-heading{
+    padding-top: 1rem;
+    text-align: center;
+    color: #888;
+    padding-bottom: 1rem;
+  }
+
+  .cta-poster{
+    text-align: center;
+  }
+
+  .cta-link-poster{
+    text-align: center;
+    color: #66bbff;
+    font-size: 1.2rem;
+    display: inline-block;
+  }
+
+  .cta-link-poster:hover {
+     border-bottom: 2px solid #66bbff;
+   }
+
+   /* css of section 8 end-of-page */
+  .end{
+    height: 13.2rem;
+    margin-top: 9.4rem;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .cta-link-back{
+    color: white;
+    font-size: 1.1rem;
+    padding-top: 3rem;
+    margin-left: 2.5rem;
+    display: inline-block;
+  }
+
+  .cta-link-back:hover{
+    border-bottom: 2px solid white;
+  }
+
+
+  .f-disclaimer {
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-top: 4.5rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: lightgray;
+  }
+
+
+
+
+
+
+
+  
+
+
+
+

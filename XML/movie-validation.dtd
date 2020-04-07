@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- The root node MovieList has sub sections: New Movies, Playing Now and Ending Soon -->
+<!ELEMENT Movielist (NewMovies|PlayingNow|EndingSoon)*>
+
+<!--- Each sub sections contains one or more movies -->
+<!ELEMENT NewMovies (Movie)*>
+
+<!--- Each sub sections contains one or more movies -->
+<!ELEMENT PlayingNow (Movie)*>
+
+<!--- Each sub sections contains one or more movies -->
+<!ELEMENT EndingSoon (Movie)*>
+
+<!--- Each movies has these following details -->
+<!ELEMENT Movie (Title|Genres|Description|Duration|Director|Cast|Trailer|Poster)*>
+
+<!ELEMENT Title (#PCDATA)>
+
+<!ELEMENT Genres (#PCDATA)>
+
+<!ELEMENT Description (#PCDATA)>
+
+<!ELEMENT Duration (#PCDATA)>
+
+<!ELEMENT Director (#PCDATA)>
+
+<!ELEMENT Cast (#PCDATA)>
+
+<!ELEMENT Trailer (#PCDATA)>
+
+<!ELEMENT Poster (#PCDATA)>
+
+
+
+

@@ -1,0 +1,528 @@
+/* importing custom font for this project */
+@font-face {
+  font-family: "SF Display";
+  src: url(applefont/SanFranciscoDisplay-Semibold.otf.otf);
+}
+
+*,
+* ::before,
+* ::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "SF Display", sans-serif;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 98rem;
+  margin: 0 auto;
+  padding: 0 2.2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1400;
+  height: 4.4rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  color: #fff;
+  padding: 0 1rem;
+  transition: opacity 0.5s;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+.nav-link-cinema {
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("images/apple.svg") center no-repeat;
+}
+
+.nav-link-search {
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("images/search.svg") center no-repeat;
+}
+
+.flag{
+  width: 22px;
+}
+
+/* position the dropdown content */
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+/* dropdown content (hidden by default) */
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+/* links inside the dropdown */
+.dropdown-content p{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding: 18px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content p:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* show the dropdown menu on hover */
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+
+/*css of section1 introduction */
+.introduction {
+  background: url("images/giphy2.gif");
+  background-position: center;
+  background-size: initial;
+  height: 64.2rem;
+  margin-top: 4.4rem;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  padding-top: 5.5rem;
+}
+
+.title-heading {
+  font-size: 5.6rem;
+  line-height: 1;
+  letter-spacing: -0.005rem;
+  position: relative;
+  animation: text 6s 1;
+}
+
+.title-sub-heading {
+  padding-top: 3rem;
+  font-size: 2.65rem;
+  margin-top: 0.6rem;
+  letter-spacing: 0.008rem;
+  font-weight: 400;
+}
+
+@keyframes text{
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 20px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+
+
+.title-def {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  color: #888;
+  margin-top: 0.69rem;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.cta-link {
+  color: #66bbff;
+  font-size: 1.8rem;
+  display: inline-block;
+}
+
+.cta-link:nth-child(2) {
+  margin-left: 3rem;
+}
+
+.cta-link:hover {
+  border-bottom: 2px solid #66bbff;
+}
+
+.jumanjii {
+  display: flex;
+  justify-content: center;
+  opacity: 70%;
+}
+
+/*css of section3 coming soon */
+.coming-soon{
+  height: 60.2rem;
+  margin-top: 4.4rem;
+  background-color: black;
+}
+
+.title-white{
+  color: white;
+  text-align: center;
+}
+
+.title-heading-white{
+  font-size: 6rem;
+  line-height: 1;
+  letter-spacing: 0.002rem;
+  font-weight: normal;
+  position: relative;
+  animation: text 8s 1;
+}
+
+.title-sub-heading-white{
+  font-size: 2rem;
+  margin-top: 1rem;
+  letter-spacing: 0.008rem;
+  font-weight: 400;
+  padding-right: 1rem;
+  color: #888;
+}
+
+@keyframes text{
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 20px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+
+.cta-link-coming{
+  text-align: right;
+  margin-top: 3rem;
+  padding-right: 20rem;
+  color: #66bbff;
+  font-size: 2rem;
+}
+
+.cta-link-coming:hover{
+  opacity: 0.7;
+}
+
+.bond-img{
+  padding-left: 5rem;
+  height: 390px;
+  width: 37rem;
+  box-shadow: -5px 16px 7px 0 white;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.bond-img:hover{
+    transform: translateX(450px);
+}
+
+
+/*css of section2 cineplex */
+.cineplex {
+  height: 49.2rem;
+  margin-top: 4.4rem;
+}
+
+.title-dark {
+  color: #000;
+  text-align: center;
+  padding-top: 5.5rem;
+}
+
+.cta-dark-link {
+  color: #0070c9;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1.8rem;
+}
+
+.cta-dark-link:hover {
+  opacity: 0.7;
+  border-bottom: 2px solid #66bbff;
+}
+
+/*css of section4 playing now movies */
+
+.title-movies {
+  color: #000;
+  text-align: center;
+  padding-top: 5.5rem;
+}
+
+.title-sub-heading-movies {
+  padding-bottom: 5.5rem;
+  padding-top: 3rem;
+  font-size: 2.65rem;
+  margin-top: 0.6rem;
+  letter-spacing: 0.008rem;
+  font-weight: 400;
+}
+
+.series img {
+  width: 100%;
+  box-shadow: -4px 4px 5px 0 #000;
+  cursor: pointer;
+  transition: 1s;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.col-1 {
+  float: left;
+  padding: 5px;
+}
+
+.series img:hover {
+  transform: translateY(-80px);
+}
+
+.cta-dark-link-movies {
+  color: #0070c9;
+  text-align: center;
+  font-size: 2.1rem;
+  margin-top: 4.8rem;
+  
+}
+
+.cta-dark-link-movies:hover {
+  opacity: 0.7;
+  
+}
+
+/*css of section5 premiering */
+
+.upcoming {
+  height: 69.2rem;
+  margin-top: 4.4rem;
+  background: url("images/astra.png");
+}
+
+.title-dark-upcoming {
+  color: #000;
+  text-align: right;
+  padding-top: 25.5rem;
+}
+
+.title-def-upcoming {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  color: aqua;
+  margin-top: 0.69rem;
+}
+
+.cta-dark-link-up {
+  text-align: right;
+  color: #0070c9;
+  font-size: 1.8rem;
+  margin-top: 1.8rem;
+}
+
+/*css of section6 table */
+
+.table {
+  height: 38rem;
+  margin-top: 4.4rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.th-main {
+  padding-top: 4rem;
+}
+
+.th-days {
+  padding-top: 3rem;
+}
+
+.th-time {
+  padding-top: 3rem;
+  padding-left: 9rem;
+}
+
+.td-day {
+  padding-top: 2rem;
+  color: orangered;
+}
+
+.td-time {
+  padding-top: 2rem;
+  padding-left: 9rem;
+  color: orangered;
+}
+
+.td-hol {
+  padding-top: 2rem;
+  padding-left: 9rem;
+  color: red;
+}
+
+.p-table {
+  text-align: left;
+  padding-top: 2.5rem;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+/*css of section7 info */
+
+.footer {
+  height: 43.2rem;
+  margin-top: 4.4rem;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  background-color: #cccccc;
+}
+
+.address {
+  padding-top: 2rem;
+}
+
+.h-address {
+  padding-bottom: 1.5rem;
+}
+
+.cta-address {
+  padding-top: 1.1rem;
+}
+
+.cta-link-address {
+  color: #0070c9;
+}
+
+.socialsize-fb {
+  width: 70px;
+  padding-right: 10px;
+}
+
+.socialsize-insta {
+  width: 53px;
+  padding-right: 10px;
+}
+
+.socialsize-twitter {
+  width: 65px;
+  padding-right: 10px;
+}
+
+.socials {
+  padding-top: 2rem;
+  display: flex;
+}
+
+.text {
+  padding-top: 4rem;
+  font-size: 1.5rem;
+}
+
+.hist {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.contact {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.links {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.head-links {
+  padding-bottom: 2rem;
+}
+
+.ul-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 -0.1rem;
+  font-size: 1.3rem;
+  color: #fff;
+  transition: opacity 0.5s;
+}
+
+.ul-links:hover {
+  opacity: 0.7;
+}
+
+.nav-foot {
+  color: black;
+  transition: opacity 0.5s;
+}
+
+.nav-foot:hover {
+  border-bottom: 2px solid;
+}
+
+.f-disclaimer {
+  padding-left: 22.5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.hero {
+  background-size: auto 73.6rem;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid #fff;
+  border-bottom: 0.6rem solid #fff;
+}
+
+.introduction {
+  border-top: none;
+}
+
+

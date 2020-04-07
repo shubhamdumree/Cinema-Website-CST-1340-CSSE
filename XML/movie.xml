@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movie-style.xsl"?>
+<!DOCTYPE Movielist SYSTEM "movie-validation.dtd">
+<Movielist>
+    <NewMovies>
+        <Movie>
+            <Title>Bad Boys for Life</Title>
+            <Genres>Action/Buddy Cop</Genres>
+            <Description>The Bad Boys Mike Lowrey and Marcus Burnett are back together for one last ride in the highly anticipated Bad Boys for Life.
+            </Description>
+            <Duration>124 min.</Duration>
+            <Director>Bilall Fallah, Adil El Arbi</Director>
+            <Cast>Will Smith, Martin Lawrence, Vanessa Hudgens, Alexandr Ludwig, Joe Pantoliano</Cast>
+            <Trailer>https://www.youtube.com/watch?v=jKCj3XuPG8M</Trailer>
+            <Poster>posters/BBforLife.png</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>Sonic the Hedgehog</Title>
+            <Genres>Adventure/Comedy</Genres>
+            <Description>After discovering a small, blue, fast hedgehog, a small-town police officer must help it defeat an evil genius who wants to do experiments on it.
+            </Description>
+            <Duration>100 min.</Duration>
+            <Director>Jeff Fowler</Director>
+            <Cast>Jim Carrey, James Marsden, Ben Schwatz, Neal McDonough, Adam Pally</Cast>
+            <Trailer>https://www.youtube.com/watch?v=szby7ZHLnkA</Trailer>
+            <Poster>posters/sonic.jpg</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>Birds of Prey</Title>
+            <Genres>Action/Adventure</Genres>
+            <Description>After splitting with the Joker, Harley Quinn joins superheroes Black Canary, Huntress and Renee Montoya to save a young girl from an evil crime lord.
+            </Description>
+            <Duration>109 min.</Duration>
+            <Director>Cathy Yan</Director>
+            <Cast>Margot Robbie, Jurnee Smollett-Bell, Mary Elizabeth Winstead,Ewan McGregor, Rosie Perez</Cast>
+            <Trailer>https://www.youtube.com/watch?v=kGM4uYZzfu0</Trailer>
+            <Poster>posters/BirdsofPrey.jpg</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>Dolittle</Title>
+            <Genres>Fantasy/Family</Genres>
+            <Description>A physician who can talk to animals embarks on an adventure to find a legendary island with a young apprentice and a crew of strange pets.</Description>
+            <Duration>101 min.</Duration>
+            <Director>Stephen Gaghan</Director>
+            <Cast>Robert Downey Jr., Tom Holland, Emma Thompson, Rami Malek, Selena Gomez</Cast>
+            <Trailer>https://www.youtube.com/watch?v=FEf412bSPLs</Trailer>
+            <Poster>posters/Dolittle.jpg</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>The Invisible Man</Title>
+            <Genres>Mystery/Sci-fi</Genres>
+            <Description>When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.
+            </Description>
+            <Duration>125 min.</Duration>
+            <Director>Leigh Whannell</Director>
+            <Cast>Elisabeth Moss, Oliver Jackson-Cohen, Aldis Hodge, Storm Reid, Harriet Dyer</Cast>
+            <Trailer>https://www.youtube.com/watch?v=dSBsNeYqh-k">Watch Trailer Now></Trailer>
+            <Poster>posters/TheInvisibleMan.jpg</Poster>
+        </Movie>
+    </NewMovies>
+
+    <PlayingNow>
+        <Movie>
+            <Title>The Call Of the Wild</Title>
+            <Genres>Adventure/Drama</Genres>
+            <Description>A sled dog struggles for survival in the wilds of the Yukon.</Description>
+            <Duration>100 min.</Duration>
+            <Director>Chris Sanders</Director>
+            <Cast>Harrison Ford, Karen Gillan, Dan Stevens, Bradley Whitford, Omar Sy</Cast>
+            <Trailer>https://www.youtube.com/watch?v=5P8R2zAhEwg</Trailer>
+            <Poster>posters/TCOTWild.jpg</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>Jumanji: The Next Level</Title>
+            <Genres>Comedy/Adventure</Genres>
+            <Description>In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.</Description>
+            <Duration>123 min.</Duration>
+            <Director>Jake Kasdan</Director>
+            <Cast>Dwayne Johnson, Karen Gillan, Jack Black, Kevin Hart, Nick Jonas</Cast>
+            <Trailer>https://www.youtube.com/watch?v=rBxcF-r9Ibs</Trailer>
+            <Poster>posters/jumanji.jpg</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>Onward</Title>
+            <Genres>Family/Animation</Genres>
+            <Description>Two elven brothers embark on a quest to bring their father back for one day.</Description>
+            <Duration>102 min.</Duration>
+            <Director>Dan Scanlon</Director>
+            <Cast>Tom Holland, Chris Pratt, Octavia Spencer, Julia Louis-Dreyfus, Lena Waithe</Cast>
+            <Trailer>https://www.youtube.com/watch?v=gn5QmllRCn4</Trailer>
+            <Poster>posters/Onward.jpg</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>The Gentlemen</Title>
+            <Genres>Crime/Action</Genres>
+            <Description>An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.</Description>
+            <Duration>113 min.</Duration>
+            <Director>Guy Ritchie</Director>
+            <Cast>Charlie Hunnam, Matthew McConaughey, Michelle Dockery, Collin Farell, Hugh Grant</Cast>
+            <Trailer>https://www.youtube.com/watch?v=Ify9S7hj480</Trailer>
+            <Poster>posters/TheGentlemen.jpg</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>Underwater</Title>
+            <Genres>Sci-fi/Horror</Genres>
+            <Description>A crew of oceanic researchers working for a deep sea drilling company try to get to safety after a mysterious earthquake devastates their deepwater research and drilling facility located at the bottom of the Mariana Trench.
+            </Description>
+            <Duration>95 min.</Duration>
+            <Director>William Eubank</Director>
+            <Cast>Kristen Stewart, Jessica Henwick, T.J Miller, Vincent Cassel, John Gallagher Jr.</Cast>
+            <Trailer>https://www.youtube.com/watch?v=Rszr56AH3Co</Trailer>
+            <Poster>posters/Underwater.jpg</Poster>
+        </Movie>
+    </PlayingNow>
+
+    <EndingSoon>
+        <Movie>
+            <Title>The Grudge</Title>
+            <Genres>Horror/Mystery</Genres>
+            <Description>A house is cursed by a vengeful ghost that dooms those who enter it with a violent death.</Description>
+            <Duration>94 min.</Duration>
+            <Director>Nicolas Pesce</Director>
+            <Cast>Andrea Riseborough, John Cho, Lin Shaye, Betty Gilpin, Demian Bichir</Cast>
+            <Trailer>https://www.youtube.com/watch?v=O2NKzO-fxwQ</Trailer>
+            <Poster>posters/TheGrudge.jpg</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>Bloodshot</Title>
+            <Genres>Action/Superhero</Genres>
+            <Description>Ray Garrison, an elite soldier who was killed in battle, is brought back to life by an advanced technology that gives him the ability of super human strength and fast healing.</Description>
+            <Duration>109 min.</Duration>
+            <Director>David S. F. Wilson</Director>
+            <Cast>Vin Diesel, Eiza Gonzalez, Sam Heughan, Toby Kebbell, Guy Pearce</Cast>
+            <Trailer>https://www.youtube.com/watch?v=vOUVVDWdXbo</Trailer>
+            <Poster>posters/Bloodshot.jpg</Poster>
+        </Movie>
+
+        <Movie>
+            <Title>The Hunt</Title>
+            <Genres>Thriller/Action</Genres>
+            <Description>Twelve strangers wake up in a clearing. They don't know where they are, or how they got there. They don't know they've been chosen - for a very specific purpose - The Hunt.</Description>
+            <Duration>115 min.</Duration>
+            <Director>Craig Zobel</Director>
+            <Cast>Betty Gilphin, Emma Roberts, Hilary Swank, Ethan Suplee, Justin Harley</Cast>
+            <Trailer>https://www.youtube.com/watch?v=sowGYbxTPgU</Trailer>
+            <Poster>posters/TheHunt.jpg</Poster>
+        </Movie>
+    </EndingSoon>
+</Movielist>
